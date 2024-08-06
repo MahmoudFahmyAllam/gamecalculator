@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Manipulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blue Team</h1>
+        <div id="display">
+            <span id="number">0</span> <span id="coins">Coins</span>
+        </div>
+        <div class="buttons">
+            <button onclick="changeNumber(1)">1 Coin</button>
+            <button onclick="changeNumber(2)">2 Coins</button>
+            <button onclick="changeNumber(3)">3 Coins</button>
+            <button onclick="changeNumber(-1)">-1 Coin</button>
+            <button onclick="changeNumber(-2)">-2 Coins</button>
+            <button onclick="changeNumber(-3)">-3 Coins</button>
+            <button onclick="surprise()">Surprise!</button>
+        </div>
+        <div id="display2">
+            <span id="numberT">0</span> <span id="time">Time</span>
+        </div>
+        <div class="buttons">
+            <button onclick="changeTime(1)">1 Coin</button>
+            <button onclick="changeTime(2)">2 Coins</button>
+            <button onclick="changeTime(3)">3 Coins</button>
+            <button onclick="changeTime(-1)">-1 Coin</button>
+            <button onclick="changeTime(-2)">-2 Coins</button>
+            <button onclick="changeTime(-3)">-3 Coins</button>
+            <button onclick="surprise2()">Surprise!</button>
+        </div> 
+    </div>
+    <div class="rcontainer">
+        <h1>Red Team</h1>
+        <div id="rdisplay">
+            <span id="rnumber">0</span> <span id="rcoins">Coins</span>
+        </div>
+        <div class="buttons">
+            <button onclick="rchangeNumber(1)">1 Coin</button>
+            <button onclick="rchangeNumber(2)">2 Coins</button>
+            <button onclick="rchangeNumber(3)">3 Coins</button>
+            <button onclick="rchangeNumber(-1)">-1 Coin</button>
+            <button onclick="rchangeNumber(-2)">-2 Coins</button>
+            <button onclick="rchangeNumber(-3)">-3 Coins</button>
+            <button onclick="rsurprise()">Surprise!</button>
+        </div>
+        <div id="rdisplay2">
+            <span id="rnumberT">0</span> <span id="rtime">Time</span>
+        </div>
+        <div class="buttons">
+            <button onclick="rchangeTime(1)">1 Coin</button>
+            <button onclick="rchangeTime(2)">2 Coins</button>
+            <button onclick="rchangeTime(3)">3 Coins</button>
+            <button onclick="rchangeTime(-1)">-1 Coin</button>
+            <button onclick="rchangeTime(-2)">-2 Coins</button>
+            <button onclick="rchangeTime(-3)">-3 Coins</button>
+            <button onclick="rsurprise2()">Surprise!</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
