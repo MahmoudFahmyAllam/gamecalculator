@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Number Manipulator</title>
+    <title>Game Calculator</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="icon" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" sizes="48x48" href="favicon-32x32.png">
+    <link rel="icon" sizes="192x192" href="android-chrome-192x192.png">
+    <link rel="icon" sizes="512x512" href="android-chrome-512x512.png">
 </head>
+
 <body>
     <div class="container">
         <h1>Blue Team</h1>
         <div id="display">
-            <span id="number">0</span> <span id="coins">Coins</span>
+            <i class="fa-solid fa-coins"></i> <span id="number">0</span> <span id="coins">Coins</span> 
         </div>
         <div class="buttons">
             <button onclick="changeNumber(1)">1 Coin</button>
@@ -22,7 +30,7 @@
             <button onclick="surprise()">Surprise!</button>
         </div>
         <div id="display2">
-            <span id="numberT">0</span> <span id="time">Time</span>
+           <i class="fa-solid fa-clock"></i> <span id="numberT">0</span> <span id="time">Time</span>
         </div>
         <div class="buttons">
             <button onclick="changeTime(1)">1 Coin</button>
@@ -37,7 +45,7 @@
     <div class="rcontainer">
         <h1>Red Team</h1>
         <div id="rdisplay">
-            <span id="rnumber">0</span> <span id="rcoins">Coins</span>
+            <i class="fa-solid fa-coins"></i> <span id="rnumber">0</span> <span id="rcoins">Coins</span>
         </div>
         <div class="buttons">
             <button onclick="rchangeNumber(1)">1 Coin</button>
@@ -49,7 +57,7 @@
             <button onclick="rsurprise()">Surprise!</button>
         </div>
         <div id="rdisplay2">
-            <span id="rnumberT">0</span> <span id="rtime">Time</span>
+            <i class="fa-solid fa-clock"></i>  <span id="rnumberT">0</span> <span id="rtime">Time</span>
         </div>
         <div class="buttons">
             <button onclick="rchangeTime(1)">1 Coin</button>

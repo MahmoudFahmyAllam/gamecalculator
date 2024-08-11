@@ -112,6 +112,16 @@ rupdateDisplay();
 rupdateDisplay2();
 
 
+// Function to play sound
+function playSound() {
+    const audio = new Audio('cash.mp3'); // Replace with your sound file path
+    audio.play();
+}
+
+// Add event listeners to all buttons
+document.querySelectorAll('button').forEach(button => {
+    button.addEventListener('click', playSound);
+});
 
 
 // script.js

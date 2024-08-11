@@ -63,21 +63,53 @@ body {
 #coins {
     margin-left: 10px;
     font-size: 0.8em;
-    color: #000000;
+    color: #ffffff;
 }
 #time {
     margin-left: 10px;
     font-size: 0.8em;
-    color: #000000;
+    color: #ffffff;
 }
 
 #rcoins {
     margin-left: 10px;
     font-size: 0.8em;
-    color: #000000;
+    color: #ffffff;
 }
 #rtime {
     margin-left: 10px;
     font-size: 0.8em;
-    color: #000000;
+    color: #ffffff;
+}
+
+
+h1{
+    color: #ffffff;
+}
+
+i {
+    margin: 5px;
+}
+
+.fa-coins {
+    color: gold;
+}
+
+
+.fa-clock {
+
+    color: antiquewhite;
+}
+
+
+#numberT, #rnumberT{
+    color: antiquewhite;
+}
+
+#number, #rnumber {
+    color: gold;
+}
+
+#coins, #rcoins {
+    color: gold;
 }
